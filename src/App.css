@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62,5%;
+}
+body{ 
+    font-family:sans-serif;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 90px;
+    padding: 10px;  
+    position: fixed; 
+    background-color: aliceblue;
+}
+
+
+.navbar__list{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    color:  rgba(0, 81, 81);
+    font-size: 18px;
+}
+li{
+    color:  rgba(0, 81, 81); 
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px 33px;
+    background-color:rgb(255, 187, 0);
+    border-radius: 20px;
+}
+.dropdown{
+    list-style-type: none;
+    background-color: rgba(0, 81, 81);
+    width: 150px;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    display: none;
+    position: absolute;
+    top:20px;
+}
+.dropdown li{
+    color: white;
+}
+.drop{
+    position: relative;
+}
+.drop:hover .dropdown{
+    display: block;
+    cursor: pointer;
+    
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgba(0, 81, 81);
+    padding: 8px;
+}
+.phone{
+    color:rgb(255, 187, 0);
+   
+}
+.call{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.absolute{
+   
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(4,81,82,1) 94%);
+    background-image: url('https://softivuspro.com/accupay/main/assets/images/hero_illus.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  right center;
+    padding: 90px;
+}
+.payroll{
+   
+  padding-top: 150px;
+    color: rgba(0, 81, 81); ;
+}
+.payroll span{
+    color: rgb(255, 187, 0);
+}
+.payroll h1{
+    font-size: 9rem;
+}
+.section2{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(228, 240, 236);
+}
+h4{
+    font-size: 56px;
+}
+.cont{
+    padding: 150px 0 5px;
+       display: flex;
+    justify-content: space-between;
+    gap:6px;
+}
+.pclass{
+    padding: 150px;
+    gap: 20px;
+}
+.learn{
+    border: none;
+    background-color: transparent;
+}
+.boxes{
+background-color: white;
+width: 300px;
+padding: 35px;
+}
+.whiteBox{
+    display: flex;
+    gap: 20px;
+}
+.but{
+    color: white;
+    background-color:rgba(0, 81, 81); 
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    color: rgba(0, 81, 81); 
+}
